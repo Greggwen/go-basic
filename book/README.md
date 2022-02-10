@@ -18,6 +18,7 @@
 > 译者： 黄健宏
 
 <img src="https://raw.githubusercontent.com/Greggwen/img-source/main/Books/Go%E8%AF%AD%E8%A8%80%E8%B6%A3%E5%AD%A6.jpg" width="200px">
+
 豆瓣评分： 7.6
 
 《Go 语言趣学指南》是一本面向 Go 语言初学者的书，书中循序渐进地介绍了使用 Go 语言必需知道的知识，展示了非常多生动有趣的例子，并通过提供大量练习来加深读者对书中所述内容的理解。
@@ -27,6 +28,7 @@
 > 作者： 雨痕
 
 <img src="https://raw.githubusercontent.com/Greggwen/img-source/main/Books/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.jpg" width="200px">
+
 豆瓣评分： 8.1
 
 《Go 语言学习笔记》经过四年的逐步完善，内容上覆盖了语言、运行时、性能优化、工具链等各层面的知识。分上下两卷，上卷比较详细介绍了语言规范的相关细节，便于读者深入理解语言相关功能的使用方法和注意事项。下卷对运行时源码做出了深度的剖析，诸如内存分配、垃圾回收和并发调度等。

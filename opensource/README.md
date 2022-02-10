@@ -82,3 +82,31 @@ gnet 是一个高性能、轻量级、非阻塞的事件驱动 Go 网络框架�
 Go 语言的静态网站生成器。静态网站生成器就是在本地把内容文件生成静态网页（HTML+CSS），然后把生成好的页面上传到服务器的工具。这种工具能够帮你轻松且快速地上线网站，而用户仅需选择喜欢的主题，便可以专注于内容创作。Hugo 作为最流行的静态网站生成器之一，拥有丰富的插件和主题，就算没有编程基础也能帮你快速制作出满意的博客或者网站。
 
 ![hugo](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/hugo.png)
+
+### [高性能协程池 - Ants](https://github.com/panjf2000/ants)
+
+Ants源码不到1K行，是一个广泛使用的goroutine池，可以有效控制协程数量，防止协程过多影响程序性能，实现了对大规模 goroutine 的调度管理、goroutine 复用，允许使用者在开发并发程序的时候限制 goroutine 数量，复用资源，达到更高效执行任务的效果。
+
+![ants](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/ants.png)
+
+### [依赖注入框架 - wire](https://github.com/google/wire)
+
+Wire是一种代码生成工具，它使用依赖项注入自动连接组件。组件之间的依赖关系在Wire中表示为函数参数，鼓励显式初始化而不是全局变量。由于Wire在没有运行时状态或反射的情况下运行，因此编写用于Wire的代码即使对于手工编写的初始化也很有用。
+
+### [定时任务 - cron](https://github.com/robfig/cron)
+
+Linux中的crontab大家不陌生，go语言版的cron就是一个用于管理定时任务的库，cron库支持5个空格分隔的域来表示时间。
+
+![cron](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/cron.png)
+
+### [即时通讯IM - Open-IM-Server](https://github.com/OpenIMSDK/Open-IM-Server)
+
+OpenIM：由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。
+
+![openIM](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/openIM.png)
+
+### [LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
+
+Go语言版的LeetCode解题，100%测试覆盖率，运行时优于100%，如果你想用go语言来刷leetcode的话，必荐。
+
+![leetGo](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/leetGo.png)
