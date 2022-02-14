@@ -110,3 +110,23 @@ OpenIM：由前微信技术专家打造的基于 Go 实现的即时通讯（IM�
 Go语言版的LeetCode解题，100%测试覆盖率，运行时优于100%，如果你想用go语言来刷leetcode的话，必荐。
 
 ![leetGo](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/leetGo.png)
+
+### [主机管理工具 - natpass](https://github.com/lwch/natpass)
+
+一款主机管理工具，支持shell管理，支持远程桌面管理。其功能与特性：
+1.  较小的内存占用（约20M左右）
+2.  支持tls安全连接
+3.  支持多路异步IO
+4.  支持虚拟链路层
+5.  支持链路和终端会话监控
+6.  支持web shell
+7.  支持web vnc
+8.  支持多种操作系统
+9.  protobuf数据编码
+
+![natpass](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/natpass.png)
+
+### [轻量原生跨平台 - go-cqhttp](https://github.com/Mrs4s/go-cqhttp)
+
+cqhttp的golang实现，轻量、原生跨平台。go-cqhttp 兼容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大多数内容，并在其基础上做了一些扩展。基于 [Mirai](https://github.com/mamoe/mirai) 以及 [MiraiGo](https://github.com/Mrs4s/MiraiGo) 的 [OneBot](https://github.com/howmanybots/onebot/blob/master/README.md) Golang 原生实现。
+
