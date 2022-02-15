@@ -130,3 +130,16 @@ Go语言版的LeetCode解题，100%测试覆盖率，运行时优于100%，如�
 
 cqhttp的golang实现，轻量、原生跨平台。go-cqhttp 兼容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大多数内容，并在其基础上做了一些扩展。基于 [Mirai](https://github.com/mamoe/mirai) 以及 [MiraiGo](https://github.com/Mrs4s/MiraiGo) 的 [OneBot](https://github.com/howmanybots/onebot/blob/master/README.md) Golang 原生实现。
 
+### [开源社区系统 - bbs-go](https://github.com/mlogclub/bbs-go)
+
+bbs-go是一个使用Go语言搭建的开源社区系统，采用前后端分离技术，Go语言提供api进行数据支撑，用户界面使用Nuxt.js进行渲染，后台界面基于element-ui。如果你正在学习Go语言，或者考虑转Go语言的Phper/Javaer...那么该项目对你有的学习会有很大的帮助。
+
+![bbsgo](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/bbsgo.png)
+
+
+### [API框架 - go-gin-api](https://github.com/xinliangnote/go-gin-api)
+
+基于 Gin 进行模块化设计的 API 框架，封装了常用功能，使用简单，致力于进行快速的业务研发。比如，支持 cors 跨域、jwt 签名验证、zap 日志收集、panic 异常捕获、trace 链路追踪、prometheus 监控指标、swagger 文档生成、viper 配置文件解析、gorm 数据库组件、gormgen 代码生成工具、graphql 查询语言、errno 统一定义错误码、gRPC 的使用、cron 定时任务 等等。
+
+![ginapi](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/ginapi.png)
+
