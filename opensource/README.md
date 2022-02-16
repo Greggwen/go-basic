@@ -143,3 +143,25 @@ bbs-go是一个使用Go语言搭建的开源社区系统，采用前后端分离
 
 ![ginapi](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/ginapi.png)
 
+### [3D软件渲染器  - Tetra3d](https://github.com/SolarLune/Tetra3d)
+
+Tetra3D是一款3D混合软件/硬件渲染器，主要用于视频游戏，使用Ebiten编写。与OpenGL或Vulkan这样的专业3D渲染系统相比，它速度慢、有缺陷，但也很简陋，我喜欢它。Tetra3D主要在软件中实现，但使用GPU渲染三角形和深度测试（通过使用着色器比较和写入深度，并将结果合成到完成的纹理上）。可以关闭深度测试以提高性能，交换条件是不存在对象间交叉。
+
+
+![tetra3d](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/tetra3d.gif)
+
+### [开源SQL审计平台 - Yearning](https://github.com/cookieY/Yearning)
+
+Go语言编写的一款高颜值、开源 SQL 审核平台，目前支持SQL查询、自动补全、智能提示、结果脱敏等，SQL审核、流程化工单、SQL语法检测等，基于Email和钉钉Webhook机器人工单推送。
+
+![yearning](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/yearning.png)
+
+### [国密加密 - gmsm](https://github.com/tjfoc/gmsm)
+
+GM SM2/3/4 library based on Golang (基于Go语言的国密SM2/SM3/SM4算法库)。
+
+-   SM2：国密椭圆网线算法库，支持Generate Key, Sign，Verify基础操作，支持加密和不加密的pem文件格式
+-   SM3：国密Hash算法库，支持基础的sm3Sum操作，以及hash.Hash接口
+-   SM4：国密分组密码算法库，支持Generate Key，Encrypt，Decrypt基础操作
+
+![gmsm](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/gmsm.png)
