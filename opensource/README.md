@@ -165,3 +165,35 @@ GM SM2/3/4 library based on Golang (基于Go语言的国密SM2/SM3/SM4算法库)
 -   SM4：国密分组密码算法库，支持Generate Key，Encrypt，Decrypt基础操作
 
 ![gmsm](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/gmsm.png)
+
+### [即时通讯 - chat](https://github.com/tinode/chat)
+这是一个开源的即时通讯软件，既然是即时通讯软件，学习的时候基本上无任何业务负担，可以专注地学习程序逻辑本身，服务端是Go语言写的。
+
+![chat](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/chat.png)
+
+### [企业级监控 - Nightingale](https://gitee.com/cnperl/Nightingale)
+
+夜莺（Nightingale）是一个企业级监控解决方案，对云原生场景、传统物理机虚拟机场景，都有很好的支持。
+
+![nightingale](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/nightingale.png)
+
+### [Redis服务器 - godis](https://github.com/HDT3213/godis)
+
+Godis 是一个用 Go 语言实现的 Redis 服务器。
+关键功能:
+-   支持 string, list, hash, set, sorted set 数据结构
+-   自动过期功能(TTL)
+-   发布订阅
+-   地理位置
+-   AOF 持久化及 AOF 重写
+-   Multi 命令开启的事务具有原子性和隔离性. 若在执行过程中遇到错误, godis 会回滚已执行的命令
+-   内置集群模式. 集群对客户端是透明的, 您可以像使用单机版 redis 一样使用 godis 集群
+-   MSET, DEL 命令在集群模式下原子性执行
+-   Rename, RenameNX 命令在集群模式下支持在同一个 slot 内执行
+-   Multi 命令开启的事务在集群模式下支持在同一个 slot 内执行
+-   并行引擎, 无需担心您的操作会阻塞整个服务器.
+
+![godis](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/godis.png)
+
+
+
