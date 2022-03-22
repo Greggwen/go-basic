@@ -210,6 +210,41 @@ Godis 是一个用 Go 语言实现的 Redis 服务器。
 -   并行引擎, 无需担心您的操作会阻塞整个服务器.
 
 ![godis](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/godis.png)
+### [local-log4j-vuln-scanner](https://github.com/hillu/local-log4j-vuln-scanner)
+这是一个简单的工具，可用于查找log4j 1的易受攻击实例。
+
+![local-log4j-vuln-scanner](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/log4shell.png)
+
+### [Apache Dubbo-go](https://github.com/apache/dubbo-go)
+Apache Dubbo Go语言实现与gRPC/Dubbo生态互通，覆盖多种网络协议，包括：Triple、Dubbo、JSONRPC、gRPC、HTTP、HTTP2等。支持以下功能：
+- 注册中心:支持 Nacos（阿里开源） 、Zookeeper、ETCD、Consul、Polaris-mesh（腾讯开源） 等服务注册中间件，并拥有可扩展能力。我们也会根据用户使用情况，进一步扩展出用户需要的实现。
+- 配置中心开发者可以使用Nacos、Apollo（携程开源）、Zookeeper 进行框架/用户的配置的发布和拉取。
+- 集群策略: Failover, Failfast, Failsafe/Failback, Available, Broadcast, Forking 等
+- 负载均衡策略: 柔性服务, Random, RoundRobin, LeastActive, ConsistentHash 等
+- 过滤器: Echo, Hystrix, Token, AccessLog, TpsLimiter, ExecuteLimit, Generic, Auth/Sign, Metrics, Tracing, Active, Seata, Sentinel 等
+- 泛化调用
+- 监控: Prometheus
+- 链路追踪: Jaeger, Zipkin
+- 路由器: Dubbo3 Router
+
+![Dubbo-go](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/dubbo-go.png)
+
+### [内网综合扫描工具 - fscan](https://github.com/shadow1ng/fscan)
+fscan是一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。
+
+![fscan](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/fscan.png)
+
+### [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
+「自选优选 IP / 过滤假墙」测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)！这个项目的建立初衷是因为国外很多网站都在使用 Cloudflare CDN，但分配给中国内地访客的 IP 并不友好（延迟高、丢包多、速度慢）。而该项目主要就是解决这部分问题。
+
+![CloudflareSpeedTest](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/cloudflarespeed.png)
+
+### [内网穿透代理服务器 - nps](https://github.com/ehang-io/nps)
+nps是一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。
+
+![nps](https://raw.githubusercontent.com/Greggwen/img-source/main/opensource/nps.png)
+
+
 
 
 
